@@ -1,0 +1,19 @@
+{
+  "name": "scp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scp.js",
+  "scripts": {
+    "scp": "node ./scp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "chalk": "^4.1.2",
+    "form-data": "^4.0.0",
+    "qs": "^6.10.1",
+    "sha256": "^0.2.0",
+    "shelljs": "^0.8.4"
+  }
+}
