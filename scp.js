@@ -73,7 +73,12 @@ async function handle() {
     }
     succ(res.data.msg);
     shell.exec(`rm -f ${path.resolve(__dirname, "dist.tgz")}`);
-    succ("ok");
+    succ(`
+
+      部署完成
+      项目地址: http://47.106.73.220/
+      
+    `);
   });
 }
 
